@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.show-menu{transform: unset;}
+.hide-menu{transform: translate(-100%, 0);}
+.position-relative{position: relative;}
+.hide{display: none;}
+
+.hidden-back{
+    opacity: 0;
+    transition: all .2s ease;
+}
+
+.shown-back{
+    opacity: 1;
+    transition: all .2s ease;
+}
+
+.hover-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(201, 201, 201, 0.3);
+}
+
+.loading{
+    width: 3.5rem;
+    height: 3.5rem;
+    background-image: url("/public/img/loading.gif");
+    background-position: center;
+    background-size: 3.5rem;
+    background-repeat: no-repeat;
+}
