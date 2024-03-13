@@ -18,3 +18,5 @@ Caracteristicas principales:
 - Creación y control de pedidos
 - Control de inventario disponible
 - Control e historial de deuda del cliente
+
+[Ejemplo](http://sisinvaltecx.000.pe)
