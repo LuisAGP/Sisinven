@@ -25,50 +25,45 @@ El panel de control ofrece una visión general del estado actual del inventario,
 
 Los usuarios pueden agregar nuevos productos al inventario, editar la información de productos existentes, y eliminar productos obsoletos. La interfaz proporciona campos intuitivos para ingresar detalles como nombre, descripción, precio, y cantidad en stock.
 
-### Búsqueda Avanzada
-![Búsqueda Avanzada](https://github.com/LuisAGP/Sisinven/blob/main/screenshots/Screenshot%20from%202024-06-07%2011-44-16.png?raw=true)
+### Detalles del pedido
+![Detalles del pedido](https://github.com/LuisAGP/Sisinven/blob/main/screenshots/Screenshot%20from%202024-06-07%2011-44-16.png?raw=true)
 
-El sistema ofrece una función de búsqueda avanzada que permite a los usuarios filtrar productos por diferentes criterios, como categoría, proveedor, o rango de precios.
+Podemos visualizar los detalles de cada pedido para realizado por cada cliente
 
-### Gestión de Proveedores
-![Gestión de Proveedores](https://github.com/LuisAGP/Sisinven/blob/main/screenshots/Screenshot%20from%202024-06-07%2011-44-46.png?raw=true)
+### Crear nuevo pedido
+![Generación de pedidos](https://github.com/LuisAGP/Sisinven/blob/main/screenshots/Screenshot%20from%202024-06-07%2011-44-46.png?raw=true)
 
-Además de gestionar productos, los usuarios pueden mantener una lista de proveedores, agregar nuevos proveedores, y actualizar la información de contacto de los proveedores existentes.
-
-### Generación de Informes
-![Generación de Informes](https://github.com/LuisAGP/Sisinven/blob/main/screenshots/Screenshot%20from%202024-06-07%2011-44-53.png?raw=true)
-
-El sistema permite generar informes detallados sobre el estado del inventario, ventas realizadas en un período específico, y otras métricas relevantes para la gestión del negocio.
+Además de gestionar productos, los usuarios pueden generar nuevos pedidos, agregar nuevos productos, seleccionar al cliente, también permite dar un precio preferencial por producto a cada cliente a partir de un precio base y descontar los productos del inventario una vez que se completa el pedido.
 
 ### Administración de Usuarios
-![Administración de Usuarios](https://github.com/LuisAGP/Sisinven/blob/main/screenshots/Screenshot%20from%202024-06-07%2011-45-22.png?raw=true)
+![Administración de Usuarios](https://github.com/LuisAGP/Sisinven/blob/main/screenshots/Screenshot%20from%202024-06-07%2011-46-38.png?raw=true)
 
 Los administradores pueden gestionar usuarios del sistema, asignar roles y permisos, y supervisar las actividades de los usuarios para garantizar la seguridad y la integridad de los datos.
 
-### Configuración del Sistema
-![Configuración del Sistema](https://github.com/LuisAGP/Sisinven/blob/main/screenshots/Screenshot%20from%202024-06-07%2011-45-32.png?raw=true)
+### Formulario para agregar un nuevo producto
+![Nuevo producto](https://github.com/LuisAGP/Sisinven/blob/main/screenshots/Screenshot%20from%202024-06-07%2011-45-32.png?raw=true)
 
-El sistema ofrece opciones de configuración que permiten personalizar aspectos como la moneda utilizada, los impuestos aplicables, y las unidades de medida para los productos.
+El sistema ofrece un formulario para poder agregar más productos con respecto a la información almacenada en la sección de categorias.
 
-### Integración de TPV
-![Integración de TPV](https://github.com/LuisAGP/Sisinven/blob/main/screenshots/Screenshot%20from%202024-06-07%2011-45-44.png?raw=true)
+### Categorias
+![Categorias](https://github.com/LuisAGP/Sisinven/blob/main/screenshots/Screenshot%20from%202024-06-07%2011-45-44.png?raw=true)
 
-El sistema puede integrarse con terminales de punto de venta (TPV) para agilizar el proceso de venta en la ferretería y mantener sincronizados los datos de inventario en tiempo real.
+Para evitar errores, el administrador puede agregar diferentes valores predefinidos a características del producto, como medidas, materiales, tipos. De esa manera, se homogeneiza la forma de registrar un producto.
 
-### Copias de Seguridad
-![Copias de Seguridad](https://github.com/LuisAGP/Sisinven/blob/main/screenshots/Screenshot%20from%202024-06-07%2011-45-53.png?raw=true)
+### Control de clientes
+![Clientes](https://github.com/LuisAGP/Sisinven/blob/main/screenshots/Screenshot%20from%202024-06-07%2011-45-53.png?raw=true)
 
-Para garantizar la seguridad de los datos, el sistema permite realizar copias de seguridad regulares de la base de datos y restaurar los datos en caso de pérdida o corrupción.
+Desde esta sección podemos registrar a los diferentes clientes del negocio y almacenar un historial de la cuenta que va adeudando para poder llevar un mejor control sobre los pedidos.
 
-### Historial de Acciones
-![Historial de Acciones](https://github.com/LuisAGP/Sisinven/blob/main/screenshots/Screenshot%20from%202024-06-07%2011-46-06.png?raw=true)
+### Sección de abonos
+![Abonos](https://github.com/LuisAGP/Sisinven/blob/main/screenshots/Screenshot%20from%202024-06-07%2011-46-06.png?raw=true)
 
-Los usuarios pueden acceder a un registro detallado de acciones realizadas en el sistema, incluyendo cambios en el inventario, modificaciones de productos, y actividades de los usuarios.
+Desde este pequeño modal, el usuario del sistema puede registrar un nuevo movimiento de abono a la cuenta del cliente.
 
-### Ayuda y Soporte
-![Ayuda y Soporte](https://github.com/LuisAGP/Sisinven/blob/main/screenshots/Screenshot%20from%202024-06-07%2011-46-25.png?raw=true)
+### Historial de movimientos
+![Historial de movimientos](https://github.com/LuisAGP/Sisinven/blob/main/screenshots/Screenshot%20from%202024-06-07%2011-46-25.png?raw=true)
 
-El sistema proporciona recursos de ayuda integrados, incluyendo documentación detallada, tutoriales paso a paso, y soporte técnico para resolver cualquier problema o duda que puedan tener los usuarios.
+El sistema proporciona un historial de pedidos, abonos y cancelaciones de cada cliente para mantener un control sobre el balance de cada uno de los clientes.
 
 ## Características Clave
 
