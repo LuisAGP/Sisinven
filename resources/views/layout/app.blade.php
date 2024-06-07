@@ -47,7 +47,7 @@
                     </button>
                     <h1 class="text-center font-bold text-2xl mt-3">
                         <a href="{{ route('sys.home') }}">
-                            <img src="{{ asset('img/logo.png') }}" alt="Logo">
+                            <img src="{{ asset('img/logo.jpg') }}" alt="Logo">
                         </a>
                     </h1>
                     <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
